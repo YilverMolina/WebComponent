@@ -1,0 +1,80 @@
+<div>
+    <div class="bz-card">
+        <div class="bz-card__header">
+            <div class="bz-card__header-icon"><svg class="bz-icn" height="16px" width="16px">
+          <use href="#icon-map-bundle"></use>
+        </svg></div>
+            <div class="bz-card__header-text">
+                <h4 class="bz-card__header-title">{{title}}</h4>
+            </div>
+            <a class="bz-card__moreactions" href="#">
+                <svg class="bz-icn" height="16px" width="16px">
+          <use xlink:href="#menu-3-dots-v"></use>
+        </svg>
+            </a>
+        </div>
+    </div>
+
+    <div class="bz-card">
+        <div class="bz-card__header-state bz-card__header-state--green"></div>
+        <div class="bz-card__header">
+            <div class="bz-card__header-icon">
+                <svg class="bz-icn" height="16px" width="16px">
+          <use [attr.xlink:href]="'#'+nameIcon"></use>
+        </svg>
+            </div>
+            <div class="bz-card__header-text">
+                <h4 class="bz-card__header-title">{{title}}</h4>
+                <p class="bz-card__header-subtitle"><span class="bz-card__header-subtitle--green">Accepted
+            in</span> 11/28/17</p>
+            </div><a class="bz-card__moreactions" href="#"><svg class="bz-icn" height="16px" width="16px">
+          <use xlink:href="#menu-3-dots-v"></use>
+        </svg></a>
+        </div>
+    </div>
+    <div class="bz-card">
+        <div class="bz-card__header-state bz-card__header-state--orange"></div>
+        <div class="bz-card__header">
+            <div class="bz-card__header-icon"><svg class="bz-icn" height="16px" width="16px">
+          <use [attr.xlink:href]="'#'+nameIcon"></use>
+        </svg></div>
+            <div class="bz-card__header-text">
+                <h4 class="bz-card__header-title">{{title}}</h4>
+                <p class="bz-card__header-subtitle"><span class="bz-card__header-subtitle--orange">Pending</span></p>
+            </div><a class="bz-card__moreactions" href="#"><svg class="bz-icn" height="16px" width="16px">
+          <use xlink:href="#menu-3-dots-v"></use>
+        </svg></a>
+        </div>
+    </div>
+    <div class="bz-card">
+        <div class="bz-card__header">
+            <div class="bz-card__header-icon"><svg class="bz-icn" height="16px" width="16px">
+          <use [attr.xlink:href]="'#'+nameIcon"></use>
+        </svg></div>
+            <div class="bz-card__header-text">
+                <h4 class="bz-card__header-title">{{title}}</h4>
+            </div><a class="bz-card__moreactions" href="#"><svg class="bz-icn" height="16px" width="16px">
+          <use xlink:href="#menu-3-dots-v"></use>
+        </svg></a>
+        </div>
+        <div class="bz-card__content">
+            <figure class="bz-card__content-image"><img alt="" src="http://yilvermolinah.com/fotos/Foto_YilverMH.jpg"></figure>
+            <div class="bz-card__content-details">
+                <p class="bz-card__content-title">{{subtitle}}</p>
+                <p class="bz-card__content-subtitle">{{description}}</p>
+            </div>
+        </div>
+        <div class="bz-card__footer"><button class="bz-btn bz-btn--secondary bz-btn--m bz-space--inline-m">Button
+        label</button><button class="bz-btn bz-btn--primary bz-btn--m">Button label</button></div>
+    </div>
+</div>
+
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="menu-3-dots-v" viewBox="0 0 10 16">
+    <g transform="translate(7 1)">
+      <circle cx="1" cy="1" r="1" />
+      <circle cx="1" cy="7" r="1" />
+      <circle cx="1" cy="13" r="1" />
+    </g>
+  </symbol>
+</svg>
